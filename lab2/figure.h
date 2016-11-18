@@ -4,11 +4,11 @@
 class Figure
 {
 public:
-    Figure();
-    virtual ~Figure();
+    Figure(); // Конструктор по умолчанию
+    virtual ~Figure(); // Виртуальный деструктор
 
-    virtual double          GetSquare();
-    virtual void            PrintName();
+    virtual double          GetSquare(); // Виртуальная функция, возвращающая площадь
+    virtual void            PrintName(); // Виртуальная функция, печатающая имя
 };
 
 #endif // FIGURE_H

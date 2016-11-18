@@ -18,6 +18,7 @@ Circle::~Circle()
 
 double Circle::GetSquare()
 {
+    // 2*Pi*r - формула длины окружности
     return 2*M_PI*r; // M_PI - число пи
 }
 
