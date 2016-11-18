@@ -17,6 +17,7 @@ void print(std::vector<int>& v)
     std::cout << std::endl;
 }
 
+
 void sort(std::vector<int>& v) // Алгоритм шейкер-сортировки
 {
     for (int left_idx = 0, right_idx = v.size() - 1; left_idx < right_idx;)

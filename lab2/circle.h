@@ -16,6 +16,7 @@ class Circle : public Figure
 public:
     Circle();
     Circle(double); // Конструктор с параметрами
+
     ~Circle();
 
     double  GetSquare();
